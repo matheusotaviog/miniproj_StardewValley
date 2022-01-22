@@ -91,12 +91,13 @@ main h1 {
 
 main h2 {
     font: normal bold 1.5em cursive, arial, 'sans serif';
-    text-indent: 30px;
     background-color: var(--verde-escuro);
     color: white;
     width: max-content;
+    margin-left: -12px;
+    padding-left: 25px;
     padding-right: 30px;
-    border-radius: 12px 12px 0px 0px;
+    border-radius: 0px 12px 0px 0px;
     box-shadow: 0px 8px 9px rgba(0, 0, 0, 0.274);
     margin-top: 50px;
 }
