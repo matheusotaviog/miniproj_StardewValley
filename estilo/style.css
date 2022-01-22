@@ -29,6 +29,7 @@ body {
 }
 
 header {
+    min-width: 300px;
     background-image: linear-gradient(to bottom, var(--verde-grama), var(--verde-escuro));
     text-align: center;
     color: white;
@@ -45,7 +46,8 @@ header > h1 {
 
 header > p {
     font: normal 1.5em arial, 'sans serif';
-    width: 400px;
+    min-width: 300px;
+    max-width: 400px;
     display: block;
     margin: auto;
     text-shadow: 1px 1px 1px black;
@@ -108,6 +110,10 @@ main p {
     line-height: 1.5em;
 }
 
+main small {
+    font-size: 0.6em;
+}
+
 main a.link {
     text-decoration: none;
     font-weight: bold;
@@ -128,6 +134,7 @@ img {
 }
 
 img.pequeno {
+    min-width: 100px;
     width: 100%;
 }
 
