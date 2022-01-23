@@ -24,7 +24,8 @@
 }
 
 body {
-    background-image: linear-gradient(to bottom, wheat, var(--bege1));
+    background: wheat url("../imagens/wallpaper01.jpg") center center fixed;
+    background-size: cover;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -67,13 +68,13 @@ nav > a {
 }
 
 nav > a:hover {
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     color: var(--azul);
     transition-duration: 0.5s;
 }
 
 main {
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.575);
     max-width: 900px;
     min-width: 300px;
     margin: auto;
