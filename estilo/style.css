@@ -67,6 +67,10 @@ nav > a {
     padding: 10px;
 }
 
+nav > a.atual {
+    text-decoration: underline;
+}
+
 nav > a:hover {
     background-color: rgb(255, 255, 255);
     color: var(--azul);

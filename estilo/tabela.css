@@ -1,0 +1,49 @@
+table {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-collapse: collapse;
+    margin: left;
+    width: 600px;
+    position: relative;
+}
+
+#titulo_tab {
+    font-size: 1.2em;
+    font-weight: bold;
+    background-color: var(--verde-escuro);
+    color: white;
+    margin: auto;
+    width: 300px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+thead > tr > th {
+    position: sticky;
+    top: -1px;
+}
+
+tbody > tr:nth-child(2n) {
+    background-color: rgba(175, 252, 152, 0.616);
+}
+
+tr > th, td {
+    border: 1px solid black;
+    text-align: center;
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.5);
+    font-size: 0.8em;
+}
+
+tr > th {
+    /*#588F27*/
+    background-color: #065c31;
+    color: white;
+    font-size: 1.1em;
+}
+
+.animal {
+    min-width: 48px;
+    max-width: 48px;
+    padding: 3px;
+    margin: auto;
+}
