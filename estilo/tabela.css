@@ -47,3 +47,7 @@ tr > th {
     padding: 3px;
     margin: auto;
 }
+
+div#container {
+    overflow-x: auto;
+}
